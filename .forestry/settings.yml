@@ -6,6 +6,17 @@ webhook_url:
 sections:
 - type: directory
   path: docs
+  label: Burble
+  create: all
+  match: "**/*"
+- type: heading
+  label: Brrrrr
+- type: document
+  path: readme.md
+  label: Readme
+  match: "**/*"
+- type: directory
+  path: docs
   label: Docs
   create: documents
   match: "*.md"
